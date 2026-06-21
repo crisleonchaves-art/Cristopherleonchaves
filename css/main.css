@@ -30,3 +30,17 @@ border: none;
 border-radius: 5px;
 cursor: pointer;
 }
+button, .mi-boton {
+  background-color: #007BFF; /* Color de fondo azul */
+  color: white;              /* Color del texto */
+  padding: 10px 20px;        /* Espacio interno */
+  border: none;              /* Quita el borde por defecto */
+  border-radius: 5px;        /* Bordes redondeados */
+  cursor: pointer;           /* Cambia el cursor a una mano al pasar por encima */
+  font-size: 16px;
+}
+
+/* Efecto al pasar el mouse por encima */
+button:hover, .mi-boton:hover {
+  background-color: #0056b3; 
+}
